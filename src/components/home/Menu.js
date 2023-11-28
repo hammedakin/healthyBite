@@ -6,42 +6,45 @@ import { menu } from "../../utils/data";
 const Menu = () => {
 
       return (
-            <StyledMenu>
-                  <div className="container ">
-                        <div className="col-md-6 mx-auto text-center">
-                              <p className="small pry-text">
-                                    TODAY'S MENU
-                              </p>
-                              <h1 className="grey-bold-text">
-                                    ENJOY THE BEST MENU AND GET
-                                    <span className="pry-text"> DISCOUNTS </span>
-                                    AVAILABLE
-                              </h1>
-                        </div>
+            <>
+                  <div id="menu"></div>
+                  <StyledMenu>
+                        <div className="container ">
+                              <div className="col-md-6 mx-auto text-center">
+                                    <p className="small pry-text">
+                                          TODAY'S MENU
+                                    </p>
+                                    <h1 className="grey-bold-text">
+                                          ENJOY THE BEST MENU AND GET
+                                          <span className="pry-text"> DISCOUNTS </span>
+                                          AVAILABLE
+                                    </h1>
+                              </div>
 
-                        <div className="row mt-5 justify-content-between">
-                              {menu?.map(({ img, name, price }, i) =>
-                                    <div className="col-md-4 px-2 px-md-4 mb-4" key={i}
-                                    >
-                                          <div className="student"
-                                                style={{
-                                                      backgroundImage: `url(${ img })`
-                                                }}
+                              <div className="row mt-5 justify-content-between">
+                                    {menu?.map(({ img, name, price }, i) =>
+                                          <div className="col-md-4 px-2 px-md-4 mb-4" key={i}
                                           >
-                                                <div className="light-text ps-4 mb-4">
-                                                      <h6 className="">
-                                                            {name}
-                                                      </h6>
-                                                      <h4 className="">
-                                                            {price}
-                                                      </h4>
+                                                <div className="student"
+                                                      style={{
+                                                            backgroundImage: `url(${ img })`
+                                                      }}
+                                                >
+                                                      <div className="light-text ps-4 mb-4">
+                                                            <h6 className="">
+                                                                  {name}
+                                                            </h6>
+                                                            <h4 className="">
+                                                                  {price}
+                                                            </h4>
+                                                      </div>
                                                 </div>
                                           </div>
-                                    </div>
-                              )}
+                                    )}
+                              </div>
                         </div>
-                  </div>
-            </StyledMenu>
+                  </StyledMenu>
+            </>
       );
 };
 

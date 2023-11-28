@@ -7,7 +7,7 @@ import { ICON_FACEBOOK, ICON_INSTAGRAM, ICON_LINKEDIN, ICON_TWITTER } from "../u
 export const navLink = [
       { title: 'Home', to: '/' },
       { title: 'Why Us?', to: '/#why-us' },
-      { title: 'Reviews', to: '/#review' },
+      { title: 'Reviews', to: '/#reviews' },
       { title: 'Our Menu', to: '/#menu' },
 ];
 

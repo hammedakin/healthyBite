@@ -7,51 +7,54 @@ const WhyUs = () => {
 
 
       return (
-            <StyledWhyUs>
-                  <div className="container">
-                        <div className="row justify-content-between">
-                              <div className="col-md-4">
-                                    <h1 className="grey-bold-text">
-                                          WHY CHOOSE US FOR    <span className="pry-text"> YOUR SALAD DIET </span>
-                                    </h1>
+            <>
+                  <div id="why-us"></div>
+                  <StyledWhyUs>
+                        <div className="container">
+                              <div className="row justify-content-between">
+                                    <div className="col-md-4">
+                                          <h1 className="grey-bold-text">
+                                                WHY CHOOSE US FOR    <span className="pry-text"> YOUR SALAD DIET </span>
+                                          </h1>
+                                    </div>
+                                    <div className="col-md-4 mt-4 mt-md-0">
+                                          <p className="small grey-text">
+                                                We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.
+                                          </p>
+                                    </div>
                               </div>
-                              <div className="col-md-4 mt-4 mt-md-0">
-                                    <p className="small grey-text">
-                                          We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.
-                                    </p>
-                              </div>
-                        </div>
 
-                        <div className="row mt-5">
-                              {
-                                    whyUs.map(({ img, title, text }, i) =>
-                                          <div className="col-md-4 mb-4" key={i}>
-                                                <div className="card-bg h-100">
-                                                      <img src={img} alt={title} width='100px' className="" />
-                                                      <h6 className="fw-bold mt-5">
-                                                            {title}
-                                                      </h6>
-                                                      <p className="small grey-text mt-3">
-                                                            {text}
-                                                      </p>
-                                                      <div className="rounded-btn  mt-3">
-                                                            learn more {ICON_ARROW_RIGHT}
+                              <div className="row mt-5">
+                                    {
+                                          whyUs.map(({ img, title, text }, i) =>
+                                                <div className="col-md-4 mb-4" key={i}>
+                                                      <div className="card-bg h-100">
+                                                            <img src={img} alt={title} width='100px' className="" />
+                                                            <h6 className="fw-bold mt-5">
+                                                                  {title}
+                                                            </h6>
+                                                            <p className="small grey-text mt-3">
+                                                                  {text}
+                                                            </p>
+                                                            <div className="rounded-btn  mt-3">
+                                                                  learn more {ICON_ARROW_RIGHT}
+                                                            </div>
                                                       </div>
                                                 </div>
-                                          </div>
-                                    )
-                              }
+                                          )
+                                    }
+                              </div>
                         </div>
-                  </div>
 
-            </StyledWhyUs>
+                  </StyledWhyUs>
+            </>
       );
 };
 
 export default WhyUs;
 
 const StyledWhyUs = styled.section`
-      margin: 4rem 0;
+      padding: 4rem 0;
 
       .card-bg {
             padding: 29px;

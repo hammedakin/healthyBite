@@ -19,7 +19,7 @@ const Inspiration = () => {
                                     </p>
                               </div>
                               <div className="col-md-6">
-                                    <div className="row">
+                                    <div className="row inspiration flexrow-reverse">
                                           <div className="col-md-6">
                                                 <div className="card-bg h-100 border">
 
@@ -107,8 +107,10 @@ const StyledInspiration = styled.section`
       
       border-top: 10px solid var(--pry-color);
 
-      .col-md-6 {
-            padding: 0 !important;
+      .inspiration{
+            .col-md-6 {
+                  padding: 0 !important;
+            }
       }
 
       .card-bg{
@@ -123,11 +125,11 @@ const StyledInspiration = styled.section`
                   }
             
                   h1{
-font-size: 80px;
--webkit-text-stroke: 1px var(--pry-color);
-color: transparent;
-
-      }
+                        font-size: 80px;
+                        -webkit-text-stroke: 1px var(--pry-color);
+                        color: transparent;
+                        
+                  }
       }
 
       .border {
