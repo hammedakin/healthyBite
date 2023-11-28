@@ -1,0 +1,23 @@
+@import url("https://fonts.cdnfonts.com/css/campton");
+
+/* CSS Variables */
+:root {
+  --pry-color: #FB9300;
+  --sec-color: #FFF1DE;
+  --dark-color: #000;
+  --dark-bold-color: #575757;
+  --light-color: #fff;
+  --light-bold-color: #0000000d;
+  --grey-color: #717171;
+  --grey-bold-color: #575757;
+  --grey-light-color: #999999;
+  
+}
+/* CSS Variables */
+
+/* Dark Mode Variables */
+[data-theme="dark"] {
+
+
+}
+/* Dark Mode Variables */
