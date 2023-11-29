@@ -15,7 +15,7 @@ const Hero = () => {
                         <div className="container">
                               <div className="row align-items-center justify-content-between">
 
-                                    <div className="col-md-5 align-self-center">
+                                    <div className="col-lg-6 col-md-5 align-self-center">
                                           <div className="round-btn mt-3">
                                                 #1  Best Selling
                                           </div>
@@ -23,7 +23,7 @@ const Hero = () => {
                                                 Just Eat Healthy
                                                 With Fruit Salad.
                                           </h1>
-                                          <p className="small grey-text">
+                                          <p className="imagine grey-text col-md-8">
                                                 Imagine you always have a appetite because we provide
                                                 healthy and delicious salad for you!
                                           </p>
@@ -64,6 +64,13 @@ const StyledHero = styled.section`
 
       .padded-container{
             padding: 4rem 0;
+      }
+
+      h1 {
+            font-size: 60px;
+      }
+      p.imagine{
+            font-size: 18px;
       }
       .round-btn{
                        width:fit-content;

@@ -1,9 +1,10 @@
-import { BsPlusCircleFill, BsList, BsBell, BsBellFill, BsFillEyeSlashFill, BsFillEyeFill, BsX, BsFillGiftFill, BsFillPeopleFill, BsArrowRightCircleFill, BsArrowDownCircleFill, BsPeople, BsArrowUpCircleFill, BsShare, BsBank2, BsChevronLeft, BsCreditCard2Back, BsFillShareFill, BsPenFill, BsDownload, BsMoonFill, BsSunFill, BsFacebook, BsTwitter, BsInstagram, BsLinkedin, BsArrowRight, BsChatLeftTextFill, BsFillPersonFill, BsFillKeyFill, BsFillLockFill, BsExclamationTriangleFill, BsArrowLeft, } from 'react-icons/bs';
+import { BsPlusCircleFill, BsList, BsBell, BsBellFill, BsFillEyeSlashFill, BsFillEyeFill, BsX, BsFillGiftFill, BsFillPeopleFill, BsArrowRightCircleFill, BsArrowDownCircleFill, BsPeople, BsArrowUpCircleFill, BsShare, BsBank2, BsChevronLeft, BsCreditCard2Back, BsFillShareFill, BsPenFill, BsDownload, BsMoonFill, BsSunFill, BsFacebook, BsTwitter, BsInstagram, BsLinkedin, BsArrowRight, BsChatLeftTextFill, BsFillPersonFill, BsFillKeyFill, BsFillLockFill, BsExclamationTriangleFill, BsArrowLeft, BsTelephoneFill, BsMailbox, } from 'react-icons/bs';
 import { IoCheckmark, IoCheckmarkCircleSharp, IoCopy, IoFlashSharp, IoLogOut, IoMailUnread, IoPaperPlane, IoRibbonSharp, IoSend } from 'react-icons/io5';
 import { MdManageSearch, MdAlternateEmail, MdCameraswitch, MdQrCodeScanner, MdDeleteForever, MdVerified } from "react-icons/md";
 import { BiPhoneCall, BiSolidBook } from "react-icons/bi";
 import { FaArrowUp, FaLink, FaMoneyBill, FaPeopleArrows, FaPhone, FaSlackHash, FaUserShield, FaWallet } from "react-icons/fa";
-import { AiFillDashboard, AiFillExclamationCircle, AiOutlinePaperClip, AiOutlineQrcode } from "react-icons/ai";
+import { FaLocationPin } from "react-icons/fa6";
+import { AiFillDashboard, AiFillExclamationCircle, AiFillMail, AiOutlineMail, AiOutlinePaperClip, AiOutlineQrcode } from "react-icons/ai";
 import { CgData } from "react-icons/cg";
 import { GiCheckMark, GiCrossMark, GiPayMoney, GiReceiveMoney, GiTicket } from "react-icons/gi";
 import { GoUnverified } from "react-icons/go";
@@ -55,14 +56,14 @@ const ICON_SCAN = <MdQrCodeScanner />;
 const ICON_RECEIVE_MONEY = <GiReceiveMoney />;
 const ICON_PAY_MONEY = <GiPayMoney />;
 const ICON_SEND = <IoSend />;
-const ICON_PAPER_CLIP = <AiOutlinePaperClip />;
+const ICON_PAPER_CLIP = <FaLocationPin />;
 const ICON_MOON = <BsMoonFill />;
 const ICON_SUN = <BsSunFill />;
 const ICON_FACEBOOK = <BsFacebook />;
 const ICON_TWITTER = <BsTwitter />;
 const ICON_INSTAGRAM = <BsInstagram />;
 const ICON_LINKEDIN = <BsLinkedin />;
-const ICON_EMAIL = <IoMailUnread />;
+const ICON_EMAIL = <AiFillMail />;
 const ICON_CHAT = <BsChatLeftTextFill />;
 const ICON_LINK = <FaLink />;
 const ICON_FLASH = <IoFlashSharp />;
@@ -76,7 +77,7 @@ const ICON_SHIELD = <FaUserShield />;
 const ICON_RIBBON = <IoRibbonSharp />;
 const ICON_NOTICE = <BsExclamationTriangleFill />;
 const ICON_TICKET = <GiTicket />;
-const ICON_TELEPHONE = <FaPhone />;
+const ICON_TELEPHONE = <BsTelephoneFill />;
 const ICON_BOOK = <BiSolidBook />;
 
 

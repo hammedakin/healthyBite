@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { whyUs } from "../../utils/data";
 import { ICON_ARROW_RIGHT } from "../../utils/icons";
+import { orange, orange2, orange3, orange5 } from "../../assets";
 
 
 const WhyUs = () => {
@@ -11,7 +12,7 @@ const WhyUs = () => {
                   <div id="why-us"></div>
                   <StyledWhyUs>
                         <div className="container">
-                              <div className="row justify-content-between">
+                              <div className="row justify-content-between whyUs">
                                     <div className="col-md-4">
                                           <h1 className="grey-bold-text">
                                                 WHY CHOOSE US FOR    <span className="pry-text"> YOUR SALAD DIET </span>
@@ -24,7 +25,11 @@ const WhyUs = () => {
                                     </div>
                               </div>
 
-                              <div className="row mt-5">
+                              <div className="row ">
+
+                                    <img src={orange} alt="Orange" className="fruit1" />
+                                    <img src={orange2} alt="Orange" className="fruit2" />
+
                                     {
                                           whyUs.map(({ img, title, text }, i) =>
                                                 <div className="col-md-4 mb-4" key={i}>
@@ -56,9 +61,21 @@ export default WhyUs;
 const StyledWhyUs = styled.section`
       padding: 4rem 0;
 
+.whyUs {
+      h1 {
+            font-size: 48px;
+      }
+      p {
+            font-size: 20px;
+      }
+}
+
       .card-bg {
+            position: relative;
             padding: 29px;
             border-radius: 50px;
+            z-index:2 !important;
+            background: var(--light-color);
             
             .rounded-btn{
                   width:fit-content;
@@ -77,6 +94,30 @@ const StyledWhyUs = styled.section`
                   }
             }
       }
+      .row {
+            position: relative;
+      }
       
-
-`;
+      .fruit1{
+                  z-index:1 !important;
+                  position: absolute;
+                  top:13rem;
+                  left:-3rem; 
+                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
+                  opacity: 0.5;
+                  width: 100px;
+                  transform: rotate(176.441deg);
+            
+      }
+      .fruit2{
+                  z-index:3 !important;
+                  position: absolute;
+                  bottom:13rem;
+                  left:25rem; 
+                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
+                  opacity: 0.5;
+                  width: 80px;
+                  transform: rotate(176.441deg);
+            
+      }
+      `;

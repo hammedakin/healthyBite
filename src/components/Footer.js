@@ -19,6 +19,9 @@ const Footer = () => {
                                     <p className="">
                                           Jez Salad is the pioneer of healthy fruit salad with high nutrition.
                                     </p>
+                                    <p className="mt-4">
+                                          ©Copyright Jez Salad
+                                    </p>
                               </div>
                               <div className="col-lg-2 col-md-3 mb-4">
                                     <h5 className="pry-text mb-4">

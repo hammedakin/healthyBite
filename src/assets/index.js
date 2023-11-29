@@ -19,3 +19,11 @@ export { default as testimonial3 } from './testimonial3.png';
 
 export { default as insp1 } from './insp1.png';
 export { default as insp2 } from './insp2.png';
+
+export { default as orange } from './orange.svg';
+export { default as orange2 } from './orange2.svg';
+export { default as orange3 } from './orange3.svg';
+export { default as orange4 } from './orange4.svg';
+export { default as orange5 } from './orange5.svg';
+export { default as leaf } from './leaf.svg';
+export { default as lotOrange } from './lotOrange.svg';

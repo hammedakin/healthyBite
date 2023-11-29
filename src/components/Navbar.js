@@ -45,6 +45,11 @@ const Navbar = () => {
                                     })}
 
                               </ul >
+                              <ul className="navbar-nav ms-auto text-center">
+                                    <div className="rounded-btn mt-4 mx-auto ">
+                                          Blog Post
+                                    </div>
+                              </ul >
                         </div >
                   </div >
             </StyledNavbar >

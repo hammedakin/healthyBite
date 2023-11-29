@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { ICON_ARROW_LEFT, ICON_ARROW_RIGHT } from "../../utils/icons";
 import { testimonials } from "../../utils/data";
+import { leaf, lotOrange, orange, orange2, orange3, orange4, orange5 } from "../../assets";
 
 
 
@@ -9,6 +10,7 @@ const Testimonials = () => {
             <>
                   <div id="reviews"></div>
                   <StyledTestimonial>
+                        <img src={leaf} alt="Orange" className="fruit1" />
                         <div className="container">
                               <div className="row align-items-center">
                                     <div className="col-lg-4 mb-5">
@@ -56,7 +58,11 @@ const Testimonials = () => {
                                           </div>
                                     </div>
                               </div>
+
                         </div>
+                        <img src={orange4} alt="Orange" className="fruit2" />
+                        <img src={orange5} alt="Orange" className="fruit3" />
+                        <img src={lotOrange} alt="Orange" className="fruit4" />
                   </StyledTestimonial>
             </>
       );
@@ -65,8 +71,12 @@ const Testimonials = () => {
 export default Testimonials;
 
 const StyledTestimonial = styled.section`
-      background-color: var(--sec-color);
+      /* background-color: var(--sec-color) ; */
+      background: linear-gradient(180deg, #FFF6EA 0%, rgba(255, 232, 199, 0.5) 100%);
+
+      /* z-index:5 !important; */
       padding: 4rem 0;
+      position: relative;
 
       .arrow-nav{
             :hover{
@@ -75,14 +85,61 @@ const StyledTestimonial = styled.section`
       }
 
       .card-bg{
-            background-color: var(--light-color);
+            background: #FFFFFFCC;
             border-radius:10px;
             padding: 3rem .8rem 1rem;
             position:relative;
-
+            z-index:3;
             img{
                   position:absolute;
                   top:-1.6rem;
             }
       }
-`;
+
+      .container {
+      }
+
+
+        .fruit1{
+                  z-index:1 !important;
+                  position: absolute;
+                  top:13rem;
+                  left:-5rem; 
+                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
+                  width: 150px;
+                  transform: rotate(176.441deg);
+                  opacity: 0.3;
+                  
+            }
+      .fruit2{
+                  z-index:1 !important;
+                  position: absolute;
+                  bottom:3rem;
+                  left:0rem; 
+                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
+                  width: 120px;
+                  /* transform: rotate(-50.441deg); */
+                  opacity: 0.3;
+                  
+            }
+            .fruit3{
+                  z-index:1 !important;
+                  position: absolute;
+                  bottom:-3rem;
+                  left: 50%;
+                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
+                  width: 130px;
+                  /* transform: rotate(176.441deg); */
+                  opacity: 0.3;
+                  
+            }
+            .fruit4{
+                  z-index:1 !important;
+                  position: absolute;
+                  bottom:1rem;
+                  right:0; 
+                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
+                  width: 170px;            
+                  opacity: 0.3;
+            }
+            `;

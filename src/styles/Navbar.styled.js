@@ -18,6 +18,15 @@ export const StyledNavbar = styled.nav`
   background: none !important;
 }
 
+  .rounded-btn{
+                        width:fit-content;
+                        color: var(--light-color);
+                        background: #FB9333;
+                        padding: .5rem 1rem ;
+                        border-radius: 100px;
+                        font-size:15px;
+                 }
+
   .nav-item {
     
     a {
