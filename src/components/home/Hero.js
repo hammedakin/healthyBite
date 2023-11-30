@@ -15,7 +15,11 @@ const Hero = () => {
                         <div className="container">
                               <div className="row align-items-center justify-content-between">
 
-                                    <div className="col-lg-6 col-md-5 align-self-center">
+                                    <div className="col-lg-6 col-md-5 align-self-center"
+                                          data-aos="zoom-in"
+                                          data-aos-duration="2000"
+                                    // data-aos-delay="1000"
+                                    >
                                           <div className="round-btn mt-3">
                                                 #1  Best Selling
                                           </div>
@@ -27,7 +31,11 @@ const Hero = () => {
                                                 Imagine you always have a appetite because we provide
                                                 healthy and delicious salad for you!
                                           </p>
-                                          <div className="rounded-btn  mt-4">
+                                          <div className="rounded-btn  mt-4"
+                                                data-aos="zoom-in"
+                                                data-aos-duration="2000"
+                                                data-aos-delay="2000"
+                                          >
                                                 Order Now
                                           </div>
 
@@ -47,7 +55,11 @@ const Hero = () => {
                                           </div>
                                     </div>
 
-                                    <div className="col-md-7 col-lg-5 align-self-center">
+                                    <div className="col-md-7 col-lg-5 align-self-center"
+                                          data-aos="zoom-in"
+                                          data-aos-duration="2000"
+                                    // data-aos-delay="1000"
+                                    >
                                           <img src={hero} alt="Hero" width="100%" />
                                     </div>
                               </div>

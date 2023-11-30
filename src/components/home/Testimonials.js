@@ -9,11 +9,18 @@ const Testimonials = () => {
       return (
             <>
                   <div id="reviews"></div>
-                  <StyledTestimonial>
+                  <StyledTestimonial
+                        data-aos="zoom-in"
+                        data-aos-duration="500"
+                  >
                         <img src={leaf} alt="Orange" className="fruit1" />
                         <div className="container">
                               <div className="row align-items-center">
-                                    <div className="col-lg-4 mb-5">
+                                    <div className="col-lg-4 mb-5"
+                                          data-aos="fade-left"
+                                          data-aos-duration="1000"
+                                          data-aos-delay="500"
+                                    >
                                           <h1 className="grey-bold-text">
                                                 What Are People
                                                 Saying <span className="pry-text"> About Us
@@ -35,7 +42,11 @@ const Testimonials = () => {
                                           </div>
 
                                     </div>
-                                    <div className="col-lg-8 mt-5  mt-lg-0">
+                                    <div className="col-lg-8 mt-5  mt-lg-0"
+                                          data-aos="fade-right"
+                                          data-aos-duration="1000"
+                                          data-aos-delay="500"
+                                    >
                                           <div className="row">
                                                 {
                                                       testimonials.map(({ img, name, age, text }, i) =>

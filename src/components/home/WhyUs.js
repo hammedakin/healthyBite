@@ -13,12 +13,18 @@ const WhyUs = () => {
                   <StyledWhyUs>
                         <div className="container">
                               <div className="row justify-content-between whyUs">
-                                    <div className="col-md-4">
+                                    <div className="col-md-4"
+                                          data-aos="fade-left"
+                                          data-aos-duration="1000"
+                                    >
                                           <h1 className="grey-bold-text">
                                                 WHY CHOOSE US FOR    <span className="pry-text"> YOUR SALAD DIET </span>
                                           </h1>
                                     </div>
-                                    <div className="col-md-4 mt-4 mt-md-0">
+                                    <div className="col-md-4 mt-4 mt-md-0"
+                                          data-aos="fade-right"
+                                          data-aos-duration="1000"
+                                    >
                                           <p className="small grey-text">
                                                 We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.
                                           </p>
@@ -32,7 +38,10 @@ const WhyUs = () => {
 
                                     {
                                           whyUs.map(({ img, title, text }, i) =>
-                                                <div className="col-md-4 mb-4" key={i}>
+                                                <div className="col-md-4 mb-4" key={i}
+                                                      data-aos="zoom-in"
+                                                      data-aos-duration="1000"
+                                                >
                                                       <div className="card-bg h-100">
                                                             <img src={img} alt={title} width='100px' className="" />
                                                             <h6 className="fw-bold mt-5">

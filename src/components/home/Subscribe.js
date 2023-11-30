@@ -7,8 +7,16 @@ const Subcribe = () => {
       return (
             <StyledSubscribe>
                   <div className="container">
-                        <div className="subscribe-card">
-                              <div className="col-md-6 col-lg-5 mx-auto text-center">
+                        <div className="subscribe-card"
+                              data-aos="zoom-in"
+                              data-aos-duration="1000"
+
+                        >
+                              <div className="col-md-6 col-lg-5 mx-auto text-center"
+                                    data-aos="zoom-in"
+                                    data-aos-duration="1000"
+                                    data-aos-delay="1000"
+                              >
                                     <p className="pry-text">
                                           Our Subscribe
                                     </p>
@@ -57,6 +65,7 @@ const StyledSubscribe = styled.section`
             background-color: var(--sec-color);
             background-image: url(${ subscribe });
             background-size: cover;
+            background-position: center;
             border-radius: 50px;
             padding: 4rem 1rem;
 

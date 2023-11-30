@@ -8,9 +8,14 @@ const Menu = () => {
       return (
             <>
                   <div id="menu"></div>
-                  <StyledMenu>
-                        <div className="container ">
-                              <div className="col-md-6 mx-auto text-center">
+                  <StyledMenu
+
+                  >
+                        <div className="container">
+                              <div className="col-md-6 mx-auto text-center"
+                                    data-aos="fade-left"
+                                    data-aos-duration="1000"
+                              >
                                     <p className="small pry-text">
                                           TODAY'S MENU
                                     </p>
@@ -24,6 +29,8 @@ const Menu = () => {
                               <div className="row mt-5 justify-content-between">
                                     {menu?.map(({ img, name, price }, i) =>
                                           <div className="col-md-4 px-2 px-md-4 mb-4" key={i}
+                                                data-aos="fade-right"
+                                                data-aos-duration="1000"
                                           >
                                                 <div className="student"
                                                       style={{
