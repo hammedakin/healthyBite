@@ -39,7 +39,7 @@ const Hero = () => {
                                                 Order Now
                                           </div>
 
-                                          <div className="d-flex gap-4 flex-break mt-5 pt-4">
+                                          {/* <div className="d-flex gap-4 flex-break mt-5 pt-4">
                                                 {
                                                       rating.map(({ no, name }, i) =>
                                                             <div className="text-center" key={i}>
@@ -52,7 +52,7 @@ const Hero = () => {
                                                             </div>
                                                       )
                                                 }
-                                          </div>
+                                          </div> */}
                                     </div>
 
                                     <div className="col-md-7 col-lg-5 align-self-center"

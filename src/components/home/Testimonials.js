@@ -21,7 +21,7 @@ const Testimonials = () => {
                                           data-aos-duration="1000"
                                           data-aos-delay="500"
                                     >
-                                          <h1 className="grey-bold-text">
+                                          <h1 className="grey-bold-text text-uppercase">
                                                 What Are People
                                                 Saying <span className="pry-text"> About Us
                                                 </span>

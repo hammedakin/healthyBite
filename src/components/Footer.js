@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { logo } from "../assets";
 import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
-import { locations, socials } from "../utils/data";
+import { locations, navLink, socials } from "../utils/data";
 import { ICON_EMAIL, ICON_PAPER_CLIP, ICON_TELEPHONE } from "../utils/icons";
 
 
@@ -27,10 +27,14 @@ const Footer = () => {
                                     <h5 className="pry-text mb-4">
                                           Feature
                                     </h5>
-                                    <p className=""> Menu </p>
-                                    <p className=""> Promo </p>
-                                    <p className=""> Contact </p>
-                                    <p className=""> About Us </p>
+                                    {
+                                          navLink?.map(({ title, to }, i) =>
+                                                <a href={`${ to }`} className="text-decoration-none grey-text mb-3 d-block" key={i}>
+                                                      <p className=""> {title} </p>
+                                                </a>
+                                          )
+                                    }
+
                               </div>
                               <div className="col-lg-2 col-md-3 mb-4">
                                     <h5 className="pry-text mb-4">

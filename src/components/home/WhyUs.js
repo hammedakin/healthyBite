@@ -83,7 +83,7 @@ const StyledWhyUs = styled.section`
             position: relative;
             padding: 29px;
             border-radius: 50px;
-            z-index:2 !important;
+            z-index:30 !important;
             background: var(--light-color);
             
             .rounded-btn{
@@ -114,7 +114,7 @@ const StyledWhyUs = styled.section`
                   left:-3rem; 
                   fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
                   opacity: 0.5;
-                  width: 100px;
+                  width: 120px;
                   transform: rotate(176.441deg);
             
       }
