@@ -17,11 +17,11 @@ const Footer = () => {
                                           <img src={logo} alt="" width="130px" />
                                     </div>
                                     <p className="">
-                                          Jez Salad is the pioneer of healthy fruit salad with high nutrition.
+                                          Our Salad is the pioneer of
+                                          healthy fruit salad with
+                                          high nutrition.
                                     </p>
-                                    <p className="mt-4">
-                                          ©Copyright Jez Salad
-                                    </p>
+
                               </div>
                               <div className="col-lg-2 col-md-3 mb-4">
                                     <h5 className="pry-text mb-4">
@@ -44,18 +44,18 @@ const Footer = () => {
                                           <span className="me-3 pry-text">
                                                 {ICON_PAPER_CLIP}
                                           </span>
-                                          8819 Ohio St. South Gate,
-                                          CA 90280 </p>
+                                          21 Albert Road, Birkenhed
+                                          CH42 9NH </p>
                                     <p className="">
                                           <span className="me-3 pry-text">
                                                 {ICON_EMAIL}
                                           </span>
-                                          Ourstudio@hello.com </p>
+                                          healthybite@hello.com </p>
                                     <p className="">
                                           <span className="me-3 pry-text">
                                                 {ICON_TELEPHONE}
                                           </span>
-                                          +1 386-688-3295 </p>
+                                          +44 386-688-3295 </p>
 
                               </div>
                               <div className="col-lg-2 col-md-3 mb-4">

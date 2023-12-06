@@ -31,7 +31,7 @@ const WhyUs = () => {
                                     </div>
                               </div>
 
-                              <div className="row ">
+                              <div className="row mt-5">
 
                                     <img src={orange} alt="Orange" className="fruit1" />
                                     <img src={orange2} alt="Orange" className="fruit2" />

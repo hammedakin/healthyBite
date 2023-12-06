@@ -42,7 +42,7 @@ const Menu = () => {
                                                                   {name}
                                                             </h6>
                                                             <h4 className="">
-                                                                  {price}
+                                                                  £ {price}
                                                             </h4>
                                                       </div>
                                                 </div>

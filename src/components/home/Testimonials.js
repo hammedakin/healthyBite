@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { ICON_ARROW_LEFT, ICON_ARROW_RIGHT } from "../../utils/icons";
 import { testimonials } from "../../utils/data";
-import { leaf, lotOrange, orange, orange2, orange3, orange4, orange5 } from "../../assets";
+import { leaf, lotOrange, orange4, orange5 } from "../../assets";
 
 
 
@@ -15,8 +15,8 @@ const Testimonials = () => {
                   >
                         <img src={leaf} alt="Orange" className="fruit1" />
                         <div className="container">
-                              <div className="row align-items-center">
-                                    <div className="col-lg-4 mb-5"
+                              <div className="row align-items-center  ">
+                                    <div className="col-lg-4 mb-5 title"
                                           data-aos="fade-left"
                                           data-aos-duration="1000"
                                           data-aos-delay="500"
@@ -30,7 +30,7 @@ const Testimonials = () => {
                                                 We are very happy if you are satisfied with our service and products, let's read pure reviews from customers who bought our products.
                                           </p>
 
-                                          <h1 className="grey-bold-text">02 <span className="h6 grey-light-text">/ 05</span></h1>
+                                          {/* <h1 className="grey-bold-text">02 <span className="h6 grey-light-text">/ 05</span></h1>
 
                                           <div className="d-flex gap-3 mt-4 light-text">
                                                 <div className="pry br-sm px-3 py-2 arrow-nav">
@@ -39,7 +39,7 @@ const Testimonials = () => {
                                                 <div className="pry br-sm px-3 py-2 arrow-nav">
                                                       {ICON_ARROW_RIGHT}
                                                 </div>
-                                          </div>
+                                          </div> */}
 
                                     </div>
                                     <div className="col-lg-8 mt-5  mt-lg-0"
@@ -89,9 +89,16 @@ const StyledTestimonial = styled.section`
       padding: 4rem 0;
       position: relative;
 
-      .arrow-nav{
+      /* .arrow-nav{
             :hover{
                   background-color:#FFC87A !important;
+            }
+      } */
+
+      .title {
+
+            p {
+                  font-size: 20px;
             }
       }
 

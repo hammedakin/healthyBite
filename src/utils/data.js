@@ -1,6 +1,6 @@
 import { drink, menu1, menu2, menu3, no1, testimonial1, testimonial2, testimonial3 } from "../assets";
 
-import { ICON_FACEBOOK, ICON_INSTAGRAM, ICON_LINKEDIN, ICON_TWITTER } from "../utils/icons";
+import { ICON_INSTAGRAM, ICON_LINKEDIN, ICON_TWITTER } from "../utils/icons";
 
 
 // NAV LINKS
@@ -26,17 +26,17 @@ export const menu = [
       {
             img: menu1,
             name: 'Mini Salad Yummy ',
-            price: '$ 2.99'
+            price: '2.99'
       },
       {
             img: menu2,
             name: 'Completed Salad',
-            price: '$ 3.99'
+            price: '3.99'
       },
       {
             img: menu3,
             name: 'Salad Yummy Red',
-            price: '$ 3.99'
+            price: '3.99'
       },
 ];
 
@@ -95,9 +95,9 @@ export const testimonials = [
 
 
 export const socials = [
-      { icon: ICON_FACEBOOK, url: 'http://facebook.com' },
-      { icon: ICON_TWITTER, url: 'facebook.com' },
-      { icon: ICON_INSTAGRAM, url: 'instagram.com' },
+      // { icon: ICON_FACEBOOK, url: 'http://facebook.com' },
+      { icon: ICON_TWITTER, url: 'x.com' },
       { icon: ICON_LINKEDIN, url: 'linkedin.com' },
+      { icon: ICON_INSTAGRAM, url: 'instagram.com' },
 ];
 
