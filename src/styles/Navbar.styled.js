@@ -42,7 +42,7 @@ export const StyledNavbar = styled.nav`
       
       
       :hover {
-      transition: 0.1s ease !important;
+       transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
       background-color: var(--pry-color);
       color: var(--light-color);
       }
