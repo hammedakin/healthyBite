@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import { TextTitle } from "../../styles";
 import { menu } from "../../utils/data";
+import { apple2, leaf2 } from "../../assets";
 
 
 const Menu = () => {
 
       return (
             <>
-                  <div id="menu"></div>
+                  <div id="resources"></div>
                   <StyledMenu
 
                   >
@@ -16,18 +16,19 @@ const Menu = () => {
                                     data-aos="fade-left"
                                     data-aos-duration="1000"
                               >
-                                    <p className="small pry-text">
-                                          TODAY'S MENU
+                                    <img src={leaf2} alt="Orange" className="fruit1" />
+                                    {/* <img src={apple2} alt="Orange" className="fruit2" /> */}
+                                    <p className="fw-bold pry-bold-text">
+                                          Resources
                                     </p>
                                     <h1 className="grey-bold-text">
-                                          ENJOY THE BEST MENU AND GET
-                                          <span className="pry-text"> DISCOUNTS </span>
-                                          AVAILABLE
+                                          ENJOY THE BEST HEALTHY MENU AND
+                                          GET BETTER.
                                     </h1>
                               </div>
 
                               <div className="row mt-5 justify-content-between">
-                                    {menu?.map(({ img, name, price }, i) =>
+                                    {menu?.map(({ img, name, text }, i) =>
                                           <div className="col-md-4 px-2 px-md-4 mb-4" key={i}
                                                 data-aos="fade-right"
                                                 data-aos-duration="1000"
@@ -38,12 +39,13 @@ const Menu = () => {
                                                       }}
                                                 >
                                                       <div className="light-text ps-4 mb-4">
-                                                            <h6 className="">
+                                                            <h6 className="fw-bold">
                                                                   {name}
                                                             </h6>
-                                                            <h4 className="">
-                                                                  £ {price}
-                                                            </h4>
+
+                                                            <p className="small text-break">
+                                                                  {text}
+                                                            </p>
                                                       </div>
                                                 </div>
                                           </div>
@@ -58,7 +60,7 @@ const Menu = () => {
 export default Menu;
 
 const StyledMenu = styled.section`
-padding: 4rem 0;
+padding: 5rem 0 4rem;
 margin: 2rem 0;
 
 .student {      
@@ -74,9 +76,28 @@ margin: 2rem 0;
 
 }
 
+       .fruit1{
+                  z-index:1 !important;
+                  position: absolute;
+                  top:0rem;
+                  left:15%; 
+                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
+                  width: 150px;
+                  /* transform: rotate(176.441deg); */
+                  opacity: 0.7;
+            }
 
-.img-container {
-}
+        .fruit2{
+                  z-index:1 !important;
+                  position: absolute;
+                  top:-20rem;
+                  right:0%; 
+                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
+                  width: 100px;
+                  /* transform: rotate(176.441deg); */
+                  opacity: 0.5;
+                  
+            }
 
 
 `;

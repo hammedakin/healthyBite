@@ -39,7 +39,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 
@@ -53,34 +53,18 @@ h5 {
 .pry {
   background-color: var(--pry-color) !important;
 }
+.pry-bold-text {
+  color: var(--pry-bold-color) !important;
+}
+.pry-bold {
+  background-color: var(--pry-bold-color) !important;
+}
 .sec-text {
   color: var(--sec-color) !important;
 }
 .sec {
   background-color: var(--sec-color) !important;
 }
-.text-success {
-  color: var(--green-color) !important;
-}
-.green-bg {
-  background-color: var(--green-color) !important;
-}
-.green-text {
-  color: var(--green-color) !important;
-}
-.red-text {
-  color: var(--red-color) !important;
-}
-.red-bg {
-  background-color: var(--red-color) !important;
-}
-.yellow-text {
-  color: var(--yellow-color) !important;
-}
-.yellow-bg {
-  background-color: var(--yellow-color) !important;
-}
-
 .light-bold-text {
   color: var(--light-bold-color) !important;
 }

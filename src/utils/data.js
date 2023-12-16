@@ -1,4 +1,4 @@
-import { drink, menu1, menu2, menu3, no1, testimonial1, testimonial2, testimonial3 } from "../assets";
+import { menu1, menu2, menu3, no1, sitting, talking, testimonial1, testimonial2, testimonial3 } from "../assets";
 
 import { ICON_INSTAGRAM, ICON_LINKEDIN, ICON_TWITTER } from "../utils/icons";
 
@@ -8,7 +8,7 @@ export const navLink = [
       { title: 'Home', to: '/' },
       { title: 'Why Us?', to: '/#why-us' },
       { title: 'Reviews', to: '/#reviews' },
-      { title: 'Our Menu', to: '/#menu' },
+      { title: 'Resources', to: '/#resources' },
 ];
 
 // rating
@@ -26,17 +26,17 @@ export const menu = [
       {
             img: menu1,
             name: 'Mini Salad Yummy ',
-            price: '2.99'
+            text: 'This is made up of apple, cabage and lettuce. Eating light helps you feel better. '
       },
       {
             img: menu2,
             name: 'Completed Salad',
-            price: '3.99'
+            text: 'This contains different kinds of fruit that gets you on the go.'
       },
       {
             img: menu3,
             name: 'Salad Yummy Red',
-            price: '3.99'
+            text: 'This is a mix of red apple and mango which boosts your energy.'
       },
 ];
 
@@ -46,19 +46,19 @@ export const menu = [
 
 export const whyUs = [
       {
-            img: drink,
-            title: 'Own fruit orchard',
-            text: 'Langsung dari Kebun Sendiri yang tersebar di setiap provinsi yang memiliki cabang toko Jez Salad. setiap provinsi yang .'
+            img: sitting,
+            title: 'Resouces',
+            text: 'After speaking with our professional therapy expertise, certain solutions are to make you feel better.'
       },
       {
             img: no1,
-            title: '#1 Healthy Fruit Salad',
-            text: 'The pioneer of healthy fruit salads that are delicious & suitable for all people with the best quality assurance.'
+            title: '#1 Professional Therapist',
+            text: 'We have the best professional therapist to get in touch with us to provide the best care possible.'
       },
       {
-            img: drink,
-            title: '100 Top Brand',
-            text: 'We are one of the best brands in the Food and Beverage sector in Indonesia.'
+            img: talking,
+            title: 'Support Groups',
+            text: 'We encourage community relationship where mums and their babies can bond with other mums and their babies too.'
       },
 ];
 

@@ -9,7 +9,7 @@ const Navbar = () => {
 
       return (
             <StyledNavbar className="navbar shadow-none navbar-expand-lg transparent" id="navbar">
-                  <div className="container align-items-end">
+                  <div className="container align-items-end ">
                         <Link to="/" className="navbar-brand sec-text fit-content">
                               <img src={logo} width="30px" alt="HealthyBite" loading="lazy" />
                         </Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
 
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
-                              <ul className="navbar-nav ms-auto text-center mt-3 mt-md-0">
+                              <ul className="navbar-nav ms-5 ps-5 text-center mt-3 mt-md-0">
                                     {navLink?.map(({ title, to }, i) => {
                                           return (
                                                 <li className="nav-item" key={i}>
@@ -45,11 +45,11 @@ const Navbar = () => {
                                     })}
 
                               </ul >
-                              <ul className="navbar-nav ms-auto text-center">
+                              {/* <ul className="navbar-nav ms-auto text-center">
                                     <div className="rounded-btn mt-4 mx-auto ">
                                           Blog Post
                                     </div>
-                              </ul >
+                              </ul > */}
                         </div >
                   </div >
             </StyledNavbar >

@@ -30,7 +30,7 @@ function ScrollToTopButton() {
 
       return (
             <StyledScrollToTop className={`scroll-to-top ${ isVisible ? 'visible' : 'hidden' }`}
-            title='Scroll to Top'
+                  title='Scroll to Top'
             >
                   <button onClick={scrollToTop}>
                         {ICON_ARROW_UP}
@@ -57,7 +57,7 @@ const StyledScrollToTop = styled.div`
 
  button {
   background-color: var(--sec-color);
-  color: var(--pry-color);
+  color: var(--pry-bold-color);
   border: none;
   border-radius: 50%;
   width: 40px;

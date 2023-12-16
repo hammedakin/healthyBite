@@ -21,7 +21,7 @@ export const StyledNavbar = styled.nav`
   .rounded-btn{
                         width:fit-content;
                         color: var(--light-color);
-                        background: #FB9333;
+                        background: var(--pry-color);
                         padding: .5rem 1rem ;
                         border-radius: 100px;
                         font-size:15px;
@@ -30,7 +30,7 @@ export const StyledNavbar = styled.nav`
   .nav-item {
     
     a {
-      color: var(--pry-color);
+      color: var(--pry-bold-color);
       font-size: 1rem;
       display: block;
       padding: 2rem 1rem 0.5rem;

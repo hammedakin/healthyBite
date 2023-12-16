@@ -17,11 +17,12 @@ const Subcribe = () => {
                                     data-aos-duration="1000"
                                     data-aos-delay="1000"
                               >
-                                    <p className="pry-text">
-                                          Our Subscribe
+                                    <p className="pry-bold-text">
+                                          Our Subscribe Letter
                                     </p>
-                                    <h3 className="grey-bold-text mb-4">
-                                          Subscribe To Get The Latest Promo from Healthy <span className="pry-text">Bite</span>
+                                    <h3 className="grey-bold-text mb-4 text-uppercase">
+                                          Subscribe To Get The Latest
+                                          RESOURCES from MUMS<span className="pry-bold-text">BEST</span>
                                     </h3>
                                     <p className="small grey-text">
                                           We recommended you to subscribe to our promo program,
@@ -40,7 +41,7 @@ const Subcribe = () => {
                                                 />
                                           </div>
                                           <button
-                                                className="btn pry light-text py-2"
+                                                className="btn pry-bold light-text py-2"
                                                 type="submit"
                                           // disabled={sending}
                                           >

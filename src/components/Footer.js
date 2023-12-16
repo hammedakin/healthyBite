@@ -17,14 +17,14 @@ const Footer = () => {
                                           <img src={logo} alt="" width="130px" />
                                     </div>
                                     <p className="">
-                                          Our Salad is the pioneer of
-                                          healthy fruit salad with
-                                          high nutrition.
+                                          Our platform is the pioneer of
+                                          therapist with professional
+                                          skills and educational resources.
                                     </p>
 
                               </div>
                               <div className="col-lg-2 col-md-3 mb-4">
-                                    <h5 className="pry-text mb-4">
+                                    <h5 className="pry-bold-text mb-4">
                                           Feature
                                     </h5>
                                     {
@@ -37,22 +37,22 @@ const Footer = () => {
 
                               </div>
                               <div className="col-lg-2 col-md-3 mb-4">
-                                    <h5 className="pry-text mb-4">
+                                    <h5 className="pry-bold-text mb-4">
                                           Get in Touch
                                     </h5>
                                     <p className="">
-                                          <span className="me-3 pry-text">
+                                          <span className="me-3 pry-bold-text">
                                                 {ICON_PAPER_CLIP}
                                           </span>
                                           21 Albert Road, Birkenhed
                                           CH42 9NH </p>
                                     <p className="">
-                                          <span className="me-3 pry-text">
+                                          <span className="me-3 pry-bold-text">
                                                 {ICON_EMAIL}
                                           </span>
-                                          healthybite@hello.com </p>
+                                          mumsbest@hello.com </p>
                                     <p className="">
-                                          <span className="me-3 pry-text">
+                                          <span className="me-3 pry-bold-text">
                                                 {ICON_TELEPHONE}
                                           </span>
                                           +44 386-688-3295 </p>
@@ -62,7 +62,7 @@ const Footer = () => {
                                     <div className="d-flex mb-2">
                                           {socials?.map(({ icon, url }, i) =>
                                                 <a href={url} target="_blank" rel="noopener noreferrer"
-                                                      className="px-2 h4 pry-text"
+                                                      className="px-2 h4 pry-bold-text"
                                                       key={i}
                                                 >
                                                       {icon}
@@ -75,14 +75,7 @@ const Footer = () => {
                               </div>
                         </div>
                   </div>
-                  {/* <div className="footer-copyright pry-text text-center mt-5 py-3">
-                        © 2023{" "}
-                        <a href="https://healthybite.ng" className="pry-text text-decoration-underline">               {" "}
-                              healthybite.ng
-                        </a>{" "}
-                        || All rights reserved
 
-                                       </div> */}
             </StyledFooter>
       );
 };

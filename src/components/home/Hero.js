@@ -21,44 +21,26 @@ const Hero = () => {
                                     // data-aos-delay="1000"
                                     >
                                           <div className="round-btn mt-3">
-                                                #1  Best Selling
+                                                #1  Best Platform
                                           </div>
-                                          <h1 className="grey-bold-text my-4">
-                                                Just Eat Healthy
-                                                With Fruit Salad.
+                                          <h1 className="grey-bold-text fw-bold my-4">
+                                                IMPROVE YOUR
+                                                OVERALL MENTAL HEALTH.
                                           </h1>
                                           <p className="imagine grey-text col-md-8">
-                                                Imagine you always have a appetite because we provide
-                                                healthy and delicious salad for you!
+                                                Find the best professional therapist in the platform to provide
+                                                help during your perinatal period!
                                           </p>
-                                          <div className="rounded-btn  mt-4"
-                                                data-aos="zoom-in"
-                                                data-aos-duration="2000"
-                                                data-aos-delay="2000"
+                                          <div className="rounded-btn mt-4"
                                           >
-                                                Order Now
+                                                Get Help
                                           </div>
 
-                                          {/* <div className="d-flex gap-4 flex-break mt-5 pt-4">
-                                                {
-                                                      rating.map(({ no, name }, i) =>
-                                                            <div className="text-center" key={i}>
-                                                                  <p className="grey-bold-text fw-bold mb-0">
-                                                                        {no}
-                                                                  </p>
-                                                                  <p className="small grey-color">
-                                                                        {name}
-                                                                  </p>
-                                                            </div>
-                                                      )
-                                                }
-                                          </div> */}
                                     </div>
 
                                     <div className="col-md-7 col-lg-5 align-self-center"
                                           data-aos="zoom-in"
                                           data-aos-duration="2000"
-                                    // data-aos-delay="1000"
                                     >
                                           <img src={hero} alt="Hero" width="100%" />
                                     </div>
@@ -75,7 +57,7 @@ const StyledHero = styled.section`
       background-image: url(${ heroBg });
 
       .padded-container{
-            padding: 4rem 0;
+            padding: 0 0 4rem ;
       }
 
       h1 {
@@ -86,7 +68,7 @@ const StyledHero = styled.section`
       }
       .round-btn{
                        width:fit-content;
-                       color: var(--pry-color);
+                       color: var(--pry-bold-color);
                        background: var(--sec-color);
                        padding: .2rem 1rem ;
                        border-radius: 100px;
@@ -96,8 +78,8 @@ const StyledHero = styled.section`
                   .rounded-btn{
                         width:fit-content;
                         color: var(--light-color);
-                        background: #FB9333;
-                        padding: .5rem 1rem ;
+                        background: var(--pry-color);
+                        padding: 1rem 2.5rem ;
                         border-radius: 100px;
                         font-size:15px;
                  }

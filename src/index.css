@@ -2,8 +2,9 @@
 
 /* CSS Variables */
 :root {
-  --pry-color: #FB9300;
-  --sec-color: #FFF1DE;
+  --pry-color: #0E6823;
+  --pry-bold-color: #0CC343;
+  --sec-color: #E4FFEC;
   --dark-color: #000;
   --dark-bold-color: #575757;
   --light-color: #fff;

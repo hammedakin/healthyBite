@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { whyUs } from "../../utils/data";
 import { ICON_ARROW_RIGHT } from "../../utils/icons";
-import { orange, orange2, orange3, orange5 } from "../../assets";
-
 
 const WhyUs = () => {
 
@@ -18,7 +16,7 @@ const WhyUs = () => {
                                           data-aos-duration="1000"
                                     >
                                           <h1 className="grey-bold-text">
-                                                WHY CHOOSE US FOR    <span className="pry-text"> YOUR SALAD DIET </span>
+                                                WHY CHOOSE US FOR    <span className="pry-bold-text"> OUR SERVICES. </span>
                                           </h1>
                                     </div>
                                     <div className="col-md-4 mt-4 mt-md-0"
@@ -26,15 +24,12 @@ const WhyUs = () => {
                                           data-aos-duration="1000"
                                     >
                                           <p className="small grey-text">
-                                                We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.
+                                                We continue to consistently choose and maintain the quality of the our services, so that you can enjoy and get better too.
                                           </p>
                                     </div>
                               </div>
 
                               <div className="row mt-5">
-
-                                    <img src={orange} alt="Orange" className="fruit1" />
-                                    <img src={orange2} alt="Orange" className="fruit2" />
 
                                     {
                                           whyUs.map(({ img, title, text }, i) =>
@@ -98,35 +93,12 @@ const StyledWhyUs = styled.section`
                   
                   .rounded-btn{
                         color: var(--light-color);
-                        background: #FB9333;
+                        background: var(--pry-color);
                         padding: .5rem 1rem ;
                   }
             }
       }
       .row {
             position: relative;
-      }
-      
-      .fruit1{
-                  z-index:1 !important;
-                  position: absolute;
-                  top:13rem;
-                  left:-3rem; 
-                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
-                  opacity: 0.5;
-                  width: 120px;
-                  transform: rotate(176.441deg);
-            
-      }
-      .fruit2{
-                  z-index:3 !important;
-                  position: absolute;
-                  bottom:13rem;
-                  left:25rem; 
-                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
-                  opacity: 0.5;
-                  width: 80px;
-                  transform: rotate(176.441deg);
-            
       }
       `;
