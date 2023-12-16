@@ -11,13 +11,13 @@ const Menu = () => {
                   <StyledMenu
 
                   >
+                        <img src={apple2} alt="Orange" className="fruit4" />
                         <div className="container">
                               <div className="col-md-6 mx-auto text-center"
                                     data-aos="fade-left"
                                     data-aos-duration="1000"
                               >
                                     <img src={leaf2} alt="Orange" className="fruit1" />
-                                    {/* <img src={apple2} alt="Orange" className="fruit2" /> */}
                                     <p className="fw-bold pry-bold-text">
                                           Resources
                                     </p>
@@ -87,17 +87,34 @@ margin: 2rem 0;
                   opacity: 0.7;
             }
 
-        .fruit2{
+        .fruit4{
                   z-index:1 !important;
                   position: absolute;
-                  top:-20rem;
+                  /* top:0rem; */
                   right:0%; 
                   fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
-                  width: 100px;
-                  /* transform: rotate(176.441deg); */
+                  width: 50px;
                   opacity: 0.5;
                   
             }
-
+            
+            @media screen and (max-width: 580px ) {
+                  
+                  .fruit1{
+                        
+                             top:0rem;
+                             left:5%; 
+                             width: 90px;
+                          
+                       }
+           
+                   .fruit4{
+                        display: none;
+                           /* top:1rem; */
+                             right:0%; 
+                             width: 50px;
+                             
+                       }
+            }
 
 `;

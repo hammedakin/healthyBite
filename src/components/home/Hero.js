@@ -3,11 +3,21 @@ import { hero } from "../../assets";
 import { heroBg } from "../../assets";
 import { rating } from "../../utils/data";
 import Navbar from "../Navbar";
+import HelpCenter from "./HelpCenter";
+import { useState } from "react";
 
 
 const Hero = () => {
 
+      // Add Expenses Modal 
+      const [show, setShow] = useState(false);
+      const Close = () => setShow(false);
+      const Show = () => setShow(true);
 
+      function AddModal() {
+            Show();
+      }
+      // Add Expenses Modal
       return (
             <StyledHero>
                   <Navbar />
@@ -15,7 +25,7 @@ const Hero = () => {
                         <div className="container">
                               <div className="row align-items-center justify-content-between">
 
-                                    <div className="col-lg-6 col-md-5 align-self-center"
+                                    <div className="col-lg-6 col-md-5 align-self-center mt-5"
                                           data-aos="zoom-in"
                                           data-aos-duration="2000"
                                     // data-aos-delay="1000"
@@ -31,14 +41,15 @@ const Hero = () => {
                                                 Find the best professional therapist in the platform to provide
                                                 help during your perinatal period!
                                           </p>
-                                          <div className="rounded-btn mt-4"
+                                          <div className="rounded-btn mt-4 pointer"
+                                                onClick={() => AddModal()}
                                           >
                                                 Get Help
                                           </div>
 
                                     </div>
 
-                                    <div className="col-md-7 col-lg-5 align-self-center"
+                                    <div className="col-md-7 col-lg-5 align-self-center mt-5 mt-md-0"
                                           data-aos="zoom-in"
                                           data-aos-duration="2000"
                                     >
@@ -47,6 +58,13 @@ const Hero = () => {
                               </div>
                         </div>
                   </div>
+                  {/* Get Help Modal */}
+                  <HelpCenter
+                        show={show}
+                        onHide={Close}
+                        animation={false}
+                  />
+                  {/* Get Help Modal */}
             </StyledHero>
       );
 };
@@ -61,7 +79,7 @@ const StyledHero = styled.section`
       }
 
       h1 {
-            font-size: 60px;
+            font-size: 40px;
       }
       p.imagine{
             font-size: 18px;

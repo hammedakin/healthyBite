@@ -29,7 +29,7 @@ export { default as leaf } from './leaf.svg';
 export { default as lotOrange } from './lotOrange.svg';
 
 export { default as apple1 } from './apple1.svg';
-export { default as apple2 } from './apple2.svg';
+export { default as apple2 } from './apple2.png';
 export { default as halfApple } from './halfApple.svg';
 export { default as leaf1 } from './leaf1.svg';
 export { default as leaf2 } from './leaf2.svg';

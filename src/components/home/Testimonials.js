@@ -85,11 +85,11 @@ background: linear-gradient(180deg, #EFFFF4 0%, rgba(199, 255, 216, 0.5) 100%);
       }
 
       .card-bg{
-            background: #FFFFFFCC;
+            background: #FFFFFF;
             border-radius:10px;
             padding: 3rem .8rem 1rem;
             position:relative;
-            z-index:3;
+            z-index:3 !important;
             img{
                   position:absolute;
                   top:-1.6rem;
@@ -107,14 +107,13 @@ background: linear-gradient(180deg, #EFFFF4 0%, rgba(199, 255, 216, 0.5) 100%);
                   opacity: 0.7;
                   
             }
-
         .fruit2{
                   z-index:1 !important;
                   position: absolute;
-                  top:0rem;
-                  right:0rem; 
+                  top:-5rem;
+                  left:40%; 
                   fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
-                  width: 70px;
+                  width: 100px;
                   /* transform: rotate(176.441deg); */
                   opacity: 0.5;
                   
@@ -130,24 +129,30 @@ background: linear-gradient(180deg, #EFFFF4 0%, rgba(199, 255, 216, 0.5) 100%);
                   opacity: 0.7;
                   
             }
-            .fruit4{
-                  z-index:1 !important;
-                  position: absolute;
-                  bottom:-3rem;
-                  left: 50%;
-                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
-                  width: 130px;
-                  /* transform: rotate(176.441deg); */
-                  opacity: 0.3;
+            
+            
+            @media screen and (max-width: 580px ) {
                   
-            }
-            .fruit5{
-                  z-index:1 !important;
-                  position: absolute;
-                  bottom:1rem;
-                  right:0; 
-                  fill:  lightgray -742.486px -484.477px / 596.33% 411.392% no-repeat;
-                  width: 170px;            
-                  opacity: 0.3;
+                  .fruit1{
+                            top:-2rem;  
+                            left:1rem; 
+                            width: 80px;
+                            
+                            
+                        }
+                        .fruit2{
+                            top:-2rem;  
+                            left:70%; 
+                            width: 50px;
+                          
+                            
+                      }
+                .fruit3{
+                            bottom:-7rem;
+                            left:0rem; 
+                            width: 80px;
+                           
+                            
+                      }
             }
             `;
