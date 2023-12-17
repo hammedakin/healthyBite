@@ -71,19 +71,19 @@ export const testimonials = [
             img: testimonial1,
             name: 'Selena Gomz',
             age: '22',
-            text: 'The salad is fresh!!! Don\'t ask about the sauce again, it\'s really delicious, it\'s going to be routine.I recommend this salad to all of you guys! because they really take care of the quality.'
+            text: 'Their therapist are great!!! They helped me when I was at my lowest and not judgemental at all. I recommend this platform to all of you guys! because they really took care of us .'
       },
       {
             img: testimonial2,
             name: 'David Ken',
             age: '24',
-            text: 'The salad is fresh!!! Don\'t ask about the sauce again, it\'s really delicious, it\'s going to be routine.I recommend this salad to all of you guys! because they really take care of the quality.'
+            text: 'Their therapist are the best!!! They helped my wife a lot when she was at my lowest and not patient. I recommend this platform to all of you guys! because they really took care of her.'
       },
       {
             img: testimonial3,
             name: 'Jennifer Sina',
             age: '21',
-            text: 'The salad is fresh!!! Don\'t ask about the sauce again, it\'s really delicious, it\'s going to be routine.I recommend this salad to all of you guys! because they really take care of the quality.'
+            text: 'Their therapist are great!!! They helped me when I was at my lowest and not judgemental at all. I recommend this platform to all of you guys! because they really took care of us .'
       },
 ];
 
