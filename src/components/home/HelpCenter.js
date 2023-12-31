@@ -5,7 +5,6 @@ import styled from "styled-components";
 
 const HelpCenter = (props) => {
       const [issending, setissending] = useState(false);
-      const [allitems, setallitems] = useState([]);
 
       const [formField, setformField] = useState({});
 
@@ -20,8 +19,8 @@ const HelpCenter = (props) => {
       //  Get All Items
 
 
-      function submitFn(params) {
-
+      function submitFn(e) {
+            e.preventDefault();
       }
 
       return (
