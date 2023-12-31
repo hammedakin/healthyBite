@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { Button, ErrorPageMain } from '../styles';
+import { ErrorPageMain } from '../styles';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
@@ -17,7 +17,7 @@ const ErrorPage = () => {
               </h1>
               <h5 className="pry-text fw-light mb-5"> Page not found. </h5>
               <Link to="/">
-                <Button pry className="btn mt-3 btn-lg "> Home </Button>
+                <button className="btn mt-3 btn-lg pry light-text "> Home </button>
               </Link>
 
             </div>

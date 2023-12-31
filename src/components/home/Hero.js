@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { hero } from "../../assets";
 import { heroBg } from "../../assets";
-import { rating } from "../../utils/data";
 import Navbar from "../Navbar";
 import HelpCenter from "./HelpCenter";
 import { useState } from "react";
@@ -28,7 +27,6 @@ const Hero = () => {
                                     <div className="col-lg-6 col-md-5 align-self-center mt-5"
                                           data-aos="zoom-in"
                                           data-aos-duration="2000"
-                                    // data-aos-delay="1000"
                                     >
                                           <div className="round-btn mt-3">
                                                 #1  Best Platform

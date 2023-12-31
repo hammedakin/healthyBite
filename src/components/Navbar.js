@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ICON_LIST } from "../utils/icons";
 import { navLink } from "../utils/data";
 import { StyledNavbar } from "../styles/Navbar.styled";
-import { logo } from "../assets";
+import { modessy } from "../assets";
 
 const Navbar = () => {
 
@@ -11,7 +11,7 @@ const Navbar = () => {
             <StyledNavbar className="navbar shadow-none navbar-expand-lg transparent" id="navbar">
                   <div className="container align-items-center mt-4 mt-lg-0 ">
                         <Link to="/" className="navbar-brand sec-text fit-content">
-                              <img src={logo} width="30px" alt="HealthyBite" loading="lazy" />
+                              <img src={modessy} width="30px" alt="modessey" loading="lazy" />
                         </Link>
                         <div className="d-flex mb-2">
                               <a

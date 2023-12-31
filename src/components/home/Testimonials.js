@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { testimonials } from "../../utils/data";
-import { apple1, halfApple, leaf1, orange5 } from "../../assets";
+import { apple1, halfApple, leaf1 } from "../../assets";
 
 
 

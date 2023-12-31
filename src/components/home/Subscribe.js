@@ -35,18 +35,14 @@ const Subcribe = () => {
                                                       id="subscribe"
                                                       name='email'
                                                       placeholder="Enter your email address"
-                                                      // onChange={(e) => setEmail(e.target.value)}
-                                                      // value={email}
                                                       required
                                                 />
                                           </div>
                                           <button
                                                 className="btn pry-bold light-text py-2"
                                                 type="submit"
-                                          // disabled={sending}
                                           >
                                                 Subscribe
-                                                {/* {sending ? 'sending' : 'Subscribe'} */}
                                           </button>
                                     </div>
                               </div>

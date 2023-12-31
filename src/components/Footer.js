@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { logo } from "../assets";
-import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
-import { locations, navLink, socials } from "../utils/data";
+import { navLink, socials } from "../utils/data";
 import { ICON_EMAIL, ICON_PAPER_CLIP, ICON_TELEPHONE } from "../utils/icons";
 
 
